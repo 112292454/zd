@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.bupt.zhidian.VLTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 26.056 s <<< FAILURE! - in com.bupt.zhidian.VLTest
+contextLoads(com.bupt.zhidian.VLTest)  Time elapsed: 22.623 s  <<< ERROR!
+org.apache.http.conn.HttpHostConnectException: Connect to 10.122.252.243:9090 [/10.122.252.243] failed: Connection timed out: connect
+	at com.bupt.zhidian.VLTest.contextLoads(VLTest.java:17)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at com.bupt.zhidian.VLTest.contextLoads(VLTest.java:17)
+
